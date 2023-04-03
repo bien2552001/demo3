@@ -1,0 +1,98 @@
+2023-03-18 13:14:51.5554 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 13:15:04.1671 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 13:20:09.4130 INFO ========>>>>>>> POST successful
+2023-03-18 13:20:10.9211 INFO ========>>>>>>> POST successful
+2023-03-18 13:22:00.5415 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:24:46.1145 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:31:55.8297 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:19.5105 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:20.3533 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:20.5562 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:20.7139 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:22.7635 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:25.2297 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:57.1987 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:57.7850 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:57.9394 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:40:59.1118 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:42:37.8738 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 13:45:35.6559 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 17:18:38.5280 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 17:21:12.7366 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 17:31:48.1159 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 17:51:34.7500 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 17:52:00.2608 INFO ========>>>>>>> POST successful
+2023-03-18 17:52:10.0514 INFO ========>>>>>>> POST successful
+2023-03-18 17:52:14.4008 INFO ========>>>>>>> POST successful
+2023-03-18 17:52:18.2544 INFO ========>>>>>>> POST successful
+2023-03-18 17:52:21.4563 INFO ========>>>>>>> POST successful
+2023-03-18 17:52:25.1088 INFO ========>>>>>>> POST successful
+2023-03-18 17:52:34.8164 INFO ========>>>>>>> POST successful
+2023-03-18 17:53:58.0830 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 17:55:08.9257 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 17:56:28.0975 INFO ========>>>>>>> POST successful
+2023-03-18 18:21:01.3806 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 18:21:01.8695 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:21:24.8162 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 18:21:24.9597 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:22:42.9999 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:23:51.2319 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 18:23:51.3636 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:23:59.6684 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:24:24.6928 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:25:20.1975 INFO ========>>>>>>> POST successful
+2023-03-18 18:25:24.1361 INFO ========>>>>>>> POST successful
+2023-03-18 18:25:27.6199 INFO ========>>>>>>> POST successful
+2023-03-18 18:25:32.0674 INFO ========>>>>>>> POST successful
+2023-03-18 18:25:36.3326 INFO ========>>>>>>> POST successful
+2023-03-18 18:25:42.4650 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 18:25:42.5371 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:25:53.7819 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:26:05.7508 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:26:36.0298 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:32:58.2227 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 18:32:58.2912 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:40:23.3983 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 18:40:23.5261 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 18:54:25.3518 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 19:34:56.4500 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 19:40:48.1680 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-18 19:40:58.3093 INFO ========>>>>>>> POST successful
+2023-03-18 20:17:56.6704 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Current, action: UpdateCurrentAsync
+2023-03-18 20:20:56.7431 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Current, action: UpdateCurrentAsync
+2023-03-18 20:26:08.4809 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 20:26:39.5578 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 20:27:32.9035 INFO ========>>>>>>> POST successful
+2023-03-18 20:27:41.3170 INFO ========>>>>>>> POST successful
+2023-03-18 20:27:49.3498 INFO ========>>>>>>> POST successful
+2023-03-18 20:27:54.9468 INFO ========>>>>>>> POST successful
+2023-03-18 20:28:02.4016 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 20:40:51.8823 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: UpdateItemAsync
+2023-03-18 20:46:55.1682 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Current, action: UpdateCurrentAsync
+2023-03-18 20:53:40.9385 INFO ========>>>>>>> POST successful
+2023-03-18 20:54:06.7200 INFO ========>>>>>>> PUT_Id  successful
+2023-03-18 20:54:24.3203 INFO ========>>>>>>> PUT_Id  successful
+2023-03-18 20:55:26.3579 INFO ========>>>>>>> PUT_Id  successful
+2023-03-18 20:56:08.8394 INFO ========>>>>>>> POST successful
+2023-03-18 20:57:47.9876 INFO ========>>>>>>> PUT_Id  successful
+2023-03-18 21:23:13.6457 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:23:16.6327 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:27:26.9574 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:27:41.9135 INFO ========>>>>>>> PUT_Id  successful
+2023-03-18 21:27:56.6261 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:28:20.4850 INFO ========>>>>>>> PUT_Id  successful
+2023-03-18 21:29:56.6333 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:32:29.7867 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:32:37.6134 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 21:38:37.6928 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: UpdateCurrentAsync
+2023-03-18 22:14:07.6127 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 22:14:23.4370 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 22:15:38.0491 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 22:26:36.9913 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 22:26:52.2227 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-18 22:31:09.6261 INFO ========>>>>>>> POST successful
+2023-03-18 22:31:20.0349 INFO ========>>>>>>> POST successful
+2023-03-18 22:31:31.7027 INFO ========>>>>>>> POST successful
+2023-03-18 22:32:06.4993 INFO ========>>>>>>> POST successful
+2023-03-18 22:32:25.4688 INFO ========>>>>>>> POST successful
+2023-03-18 22:32:45.0169 INFO ========>>>>>>> DELETE_Id  successful

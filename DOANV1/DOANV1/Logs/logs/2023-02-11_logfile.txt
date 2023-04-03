@@ -1,0 +1,154 @@
+2023-02-11 00:05:32.2349 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Interface.IData_Repository.IData_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-11 00:09:32.9026 INFO ========>>>>>>> GET successful
+2023-02-11 00:09:39.2283 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 00:09:44.0964 INFO ========>>>>>>> POST successful
+2023-02-11 00:09:49.6051 INFO ========>>>>>>> POST successful
+2023-02-11 00:09:57.0947 INFO ========>>>>>>> PUT_Id  successful
+2023-02-11 00:10:02.1495 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 00:10:21.7658 INFO ========>>>>>>> PATCH_Id  successful
+2023-02-11 00:10:25.8731 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 00:11:00.0259 INFO ========>>>>>>> DELETE_Id  successful
+2023-02-11 17:58:50.9968 INFO ========>>>>>>> GET successful
+2023-02-11 18:02:34.7810 INFO ========>>>>>>> GET successful
+2023-02-11 18:02:58.6431 INFO ========>>>>>>> GET successful
+2023-02-11 18:05:51.6017 INFO ========>>>>>>> GET successful
+2023-02-11 18:05:58.9052 INFO ========>>>>>>> GET successful
+2023-02-11 18:17:17.5443 INFO ========>>>>>>> GET successful
+2023-02-11 18:17:26.9148 INFO ========>>>>>>> GET successful
+2023-02-11 18:18:16.2168 INFO ========>>>>>>> GET successful
+2023-02-11 18:18:44.8909 INFO ========>>>>>>> GET successful
+2023-02-11 18:18:45.3075 INFO ========>>>>>>> GET successful
+2023-02-11 18:18:49.6142 INFO ========>>>>>>> GET successful
+2023-02-11 18:18:53.3297 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:09.1099 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:14.4147 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:19.2695 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:20.1486 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:23.9641 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:38.1502 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:40.5903 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:49.2431 INFO ========>>>>>>> GET successful
+2023-02-11 18:23:53.1098 INFO ========>>>>>>> GET successful
+2023-02-11 18:24:19.2836 INFO ========>>>>>>> GET successful
+2023-02-11 18:27:41.5767 INFO ========>>>>>>> GET successful
+2023-02-11 18:27:45.7989 INFO ========>>>>>>> GET successful
+2023-02-11 18:27:56.5425 INFO ========>>>>>>> GET successful
+2023-02-11 18:28:09.6592 INFO ========>>>>>>> GET successful
+2023-02-11 18:29:09.2842 INFO ========>>>>>>> GET successful
+2023-02-11 18:29:14.0896 INFO ========>>>>>>> GET successful
+2023-02-11 18:29:28.0102 INFO ========>>>>>>> GET successful
+2023-02-11 18:58:44.8720 INFO ========>>>>>>> POST successful
+2023-02-11 18:59:34.9264 INFO ========>>>>>>> GET successful
+2023-02-11 18:59:39.4722 INFO ========>>>>>>> GET successful
+2023-02-11 18:59:44.5243 INFO ========>>>>>>> GET successful
+2023-02-11 18:59:49.3925 INFO ========>>>>>>> GET successful
+2023-02-11 18:59:49.9433 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:14.8765 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:21.9070 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:22.3951 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:22.8667 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:26.4305 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:30.4783 INFO ========>>>>>>> GET successful
+2023-02-11 19:00:38.2150 INFO ========>>>>>>> GET successful
+2023-02-11 19:07:31.5849 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Data, action: CreateItemAsync
+2023-02-11 19:07:43.8527 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: CreateItemAsync
+2023-02-11 19:13:00.1146 INFO ========>>>>>>> GET successful
+2023-02-11 19:28:15.2474 INFO ========>>>>>>> GET successful
+2023-02-11 19:29:55.2965 INFO ========>>>>>>> GET successful
+2023-02-11 19:30:02.9533 INFO ========>>>>>>> GET successful
+2023-02-11 19:30:07.4505 INFO ========>>>>>>> GET successful
+2023-02-11 19:30:13.4843 INFO ========>>>>>>> GET successful
+2023-02-11 19:30:21.0075 INFO ========>>>>>>> GET successful
+2023-02-11 19:30:30.1895 INFO ========>>>>>>> GET successful
+2023-02-11 19:30:37.4243 INFO ========>>>>>>> GET successful
+2023-02-11 19:51:49.4687 INFO ========>>>>>>> GET successful
+2023-02-11 19:52:12.0517 INFO ========>>>>>>> GET successful
+2023-02-11 19:53:34.0282 INFO ========>>>>>>> GET successful
+2023-02-11 19:53:42.1826 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 19:54:09.2154 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 19:54:15.5353 INFO ========>>>>>>> GET successful
+2023-02-11 19:55:00.0949 INFO ========>>>>>>> GET successful
+2023-02-11 19:57:05.8146 INFO ========>>>>>>> GET successful
+2023-02-11 19:57:15.1571 INFO ========>>>>>>> GET successful
+2023-02-11 19:57:25.6301 INFO ========>>>>>>> GET successful
+2023-02-11 19:57:29.7463 INFO ========>>>>>>> GET successful
+2023-02-11 19:59:04.9222 INFO ========>>>>>>> GET successful
+2023-02-11 20:00:05.0590 INFO ========>>>>>>> GET successful
+2023-02-11 22:25:33.1087 INFO ========>>>>>>> GET successful
+2023-02-11 22:26:23.2059 INFO ========>>>>>>> GET successful
+2023-02-11 22:26:28.1659 INFO ========>>>>>>> GET successful
+2023-02-11 22:27:18.4468 INFO ========>>>>>>> GET successful
+2023-02-11 22:28:13.4391 INFO ========>>>>>>> GET successful
+2023-02-11 22:28:41.9212 INFO ========>>>>>>> GET successful
+2023-02-11 22:28:52.0272 INFO ========>>>>>>> GET successful
+2023-02-11 23:01:43.8726 INFO ========>>>>>>> GET successful
+2023-02-11 23:02:44.5019 INFO ========>>>>>>> GET successful
+2023-02-11 23:09:49.4809 INFO ========>>>>>>> GET successful
+2023-02-11 23:10:40.6268 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:10:52.4282 INFO ========>>>>>>> GET successful
+2023-02-11 23:14:21.4628 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:25:56.7186 INFO ========>>>>>>> GET successful
+2023-02-11 23:26:12.1949 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:28:52.0296 INFO ========>>>>>>> GET successful
+2023-02-11 23:28:58.1323 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:02.2371 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:03.3260 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:04.2963 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:05.6726 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:06.6971 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:07.6898 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:08.7472 INFO ========>>>>>>> GET successful
+2023-02-11 23:29:13.3407 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:29:18.5332 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:29:19.6315 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:30:25.0341 INFO ========>>>>>>> GET successful
+2023-02-11 23:30:26.7319 INFO ========>>>>>>> GET successful
+2023-02-11 23:30:27.7790 INFO ========>>>>>>> GET successful
+2023-02-11 23:30:28.6937 INFO ========>>>>>>> GET successful
+2023-02-11 23:30:31.9739 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:30:32.8809 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:34:31.2494 INFO ========>>>>>>> GET successful
+2023-02-11 23:34:35.9309 INFO ========>>>>>>> GET successful
+2023-02-11 23:34:39.8125 INFO ========>>>>>>> GET successful
+2023-02-11 23:34:42.2130 INFO ========>>>>>>> GET successful
+2023-02-11 23:34:49.7093 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:35:05.3265 INFO ========>>>>>>> GET successful
+2023-02-11 23:35:06.7445 INFO ========>>>>>>> GET successful
+2023-02-11 23:37:56.0782 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:38:47.2823 INFO ========>>>>>>> GET successful
+2023-02-11 23:38:48.1817 INFO ========>>>>>>> GET successful
+2023-02-11 23:38:49.0134 INFO ========>>>>>>> GET successful
+2023-02-11 23:39:02.6124 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:39:41.8309 INFO ========>>>>>>> PUT_Id  successful
+2023-02-11 23:40:08.7722 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:40:37.5083 INFO ========>>>>>>> PUT_Id  successful
+2023-02-11 23:41:09.4916 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:42:21.4141 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:56:43.6107 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:49.4531 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:50.3733 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:51.2279 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:51.9953 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:52.6687 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:53.4889 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:54.0046 INFO ========>>>>>>> GET successful
+2023-02-11 23:56:54.5929 INFO ========>>>>>>> GET successful
+2023-02-11 23:57:04.4865 INFO ========>>>>>>> GET_Id  successful
+2023-02-11 23:57:29.8586 INFO ========>>>>>>> GET successful
+2023-02-11 23:57:30.9026 INFO ========>>>>>>> GET successful
+2023-02-11 23:57:33.1806 INFO ========>>>>>>> GET successful
+2023-02-11 23:57:34.1382 INFO ========>>>>>>> GET successful
+2023-02-11 23:57:35.0600 INFO ========>>>>>>> GET successful
+2023-02-11 23:57:41.2392 INFO ========>>>>>>> GET successful

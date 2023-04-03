@@ -1,0 +1,36 @@
+<main id="main" class="main">
+  <div class="pagetitle">
+    <h1>ApexCharts</h1>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item">Charts</li>
+        <li class="breadcrumb-item active">ApexCharts</li>
+      </ol>
+    </nav>
+  </div>
+  <section class="section">
+    <div class="row" [hidden]="!chart">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Current Chart</h5>
+            <div id="chartArea">
+              <apx-chart style="width:98%;display: block;"
+                         [series]="chartOptions.series"
+                         [chart]="chartOptions.chart"
+                         [xaxis]="chartOptions.xaxis"
+                         [yaxis]="chartOptions.yaxis"
+                         [stroke]="chartOptions.stroke"
+                         [tooltip]="chartOptions.tooltip"
+                         [dataLabels]="chartOptions.dataLabels"
+                         [markers]="chartOptions.markers"
+                         [colors]="chartOptions.colors">
+              </apx-chart>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

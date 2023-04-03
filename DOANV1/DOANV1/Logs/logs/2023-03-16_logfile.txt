@@ -1,0 +1,10 @@
+2023-03-16 12:11:32.2857 INFO ========>>>>>>> POST successful
+2023-03-16 12:11:41.6157 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-16 12:12:40.8215 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-16 12:12:54.3776 INFO ========>>>>>>> POST successful
+2023-03-16 12:19:11.7705 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-16 12:21:18.6990 INFO ========>>>>>>> POST successful
+2023-03-16 12:23:32.0174 INFO ========>>>>>>> DELETE_Id  successful
+2023-03-16 14:09:49.7814 INFO ========>>>>>>> POST successful
+2023-03-16 14:24:56.9062 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Current, action: CreateItemAsync
+2023-03-16 14:25:02.4388 INFO ========>>>>>>> POST successful

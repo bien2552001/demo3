@@ -1,0 +1,117 @@
+
+<main id="main" class="main">
+  <div class="pagetitle">
+    <h1>Data Tables</h1>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+        <li class="breadcrumb-item">Tables</li>
+        <li class="breadcrumb-item active">Get</li>
+      </ol>
+    </nav>
+  </div>
+  <section class="section ">
+
+    <!--<div class="row my-5 justify-content-center">
+    <div *ngIf="isLoading" class="spinner-grow text-danger" role="status"></div>-->
+    <div class="container-fluid bg-image">
+      <div class="row">
+        <div class="col-auto">
+          <ul class="sidebar-nav" id="sidebar-nav" style="background-color: #ffffff;">
+            <li class="nav-item">
+              <a class="nav-link collapsed" data-bs-target="#tables-nav1" data-bs-toggle="collapse" href="#"><i class="bi bi-layout-text-window-reverse"></i><span>Detail</span>&nbsp;&nbsp;&nbsp;<i class="bi bi-chevron-down ms-auto"></i> </a>
+              <ul id="tables-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li> <a routerLink="/post"> <i class="bi bi-circle"></i><span>Post</span> </a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!--<div class="col">
+          <a class="btn btn-outline-secondary " routerLink="/charts-apexcharts" role="button"><i class="bi bi-x-lg"></i></a>
+        </div>-->
+      </div>
+      <div class="row justify-content-center ">
+        <div class="col-3 ">
+          <div class="spinner-grow text-danger mx-5" style="width: 2rem; height: 2rem;" role="status" *ngIf="isLoading">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" [hidden]="!allCurrent">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center"><b>TABLE OF CURRENT VALUES</b></h5>
+              <table class="table shadow table-hover table-dark rounded" *ngIf="!isLoading && allCurrent">
+                <thead>
+                  <tr class="text-center">
+                    <th scope="col">STT</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">VALUE</th>
+                    <th scope="col">DATE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="text-center " *ngFor="let pullcurrent of allCurrent; let i = index;">
+                    <td>{{ i + 1 }}</td>
+                    <td>{{pullcurrent.id}}</td>
+                    <td>{{ pullcurrent.name}}</td>
+                    <td>{{ pullcurrent.value}} A</td>
+                    <td>
+                      <div class="row  justify-content-arounded">
+                        <div class="col ">
+                          {{ pullcurrent.createdDate | date:'dd/MM/yyyy, HH:mm:ss  a' }}
+                        </div>
+                        <div class="col align-item-center">
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" (ngsubmit)="onPut(pullcurrent.id)"><i class="bi bi-upload"></i></button>
+                            <button type="button" class="btn btn-outline-danger" role="button" routerLink="/table" (click)="onDelete(pullcurrent.id)"><i class="bi bi-trash-fill"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 justify-content-center">
+        <div class="col-auto">
+          <div *ngIf="!isLoading && !allCurrent" class="alert alert-danger" role="alert">
+            <p><i>There was an error loading the health check results. Please check your network connection and try again.</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!---------------------------------------------------------Put------------------------------------------->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Put_Curent</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="signInForm">
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Value</label>
+            <input type="text" class="form-control" id="recipient-name" formControlName="value" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" routerLink="/table">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- --------------------------------------------------------------------------------------------------------------- -->

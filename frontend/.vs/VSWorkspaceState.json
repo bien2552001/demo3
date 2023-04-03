@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\fushionchart",
+    "\\src\\app\\layouts",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\dashboard",
+    "\\src\\app\\pages\\dashboard\\dashboard-chart\\firstchart",
+    "\\src\\assets"
+  ],
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "PreviewInSolutionExplorer": false
+}

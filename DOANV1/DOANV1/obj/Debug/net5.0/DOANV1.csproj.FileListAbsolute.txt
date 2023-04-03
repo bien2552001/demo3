@@ -1,0 +1,204 @@
+D:\DOANV1\DOANV1\bin\Debug\net5.0\appsettings.Development.json
+D:\DOANV1\DOANV1\bin\Debug\net5.0\appsettings.json
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.exe
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.deps.json
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.runtimeconfig.json
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.runtimeconfig.dev.json
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.pdb
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.AssemblyReference.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.AssemblyInfoInputs.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.AssemblyInfo.cs
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.CoreCompileInputs.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.MvcApplicationPartsAssemblyInfo.cs
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.MvcApplicationPartsAssemblyInfo.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\scopedcss\bundle\DOANV1.styles.css
+D:\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\DOANV1.StaticWebAssets.Manifest.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\DOANV1.StaticWebAssets.Pack.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.DOANV1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.build.DOANV1.props
+D:\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.DOANV1.props
+D:\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.DOANV1.props
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.RazorTargetAssemblyInfo.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.CopyComplete
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.dll
+D:\DOANV1\DOANV1\obj\Debug\net5.0\refint\DOANV1.dll
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.pdb
+D:\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.genruntimeconfig.cache
+D:\DOANV1\DOANV1\obj\Debug\net5.0\ref\DOANV1.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\nlog.config
+D:\DOANV1\DOANV1\bin\Debug\net5.0\NLog.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\DnsClient.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\SharpCompress.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Snappier.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\ZstdSharp.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\AutoMapper.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Marvin.Cache.Headers.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\AspNetCoreRateLimit.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\AspNetCore.Identity.MongoDbCore.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\MongoDbGenericRepository.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\DOANV1\DOANV1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\nlog.config
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\appsettings.Development.json
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\appsettings.json
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.exe
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.deps.json
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.runtimeconfig.json
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.runtimeconfig.dev.json
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.pdb
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\AspNetCore.Identity.MongoDbCore.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\AspNetCoreRateLimit.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\AutoMapper.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\DnsClient.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Marvin.Cache.Headers.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDbGenericRepository.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\NLog.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\SharpCompress.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Snappier.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\ZstdSharp.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\ANGULAR\full1\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.AssemblyReference.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.AssemblyInfoInputs.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.AssemblyInfo.cs
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.CoreCompileInputs.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.MvcApplicationPartsAssemblyInfo.cs
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.MvcApplicationPartsAssemblyInfo.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\scopedcss\bundle\DOANV1.styles.css
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\DOANV1.StaticWebAssets.Manifest.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\DOANV1.StaticWebAssets.Pack.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.DOANV1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.build.DOANV1.props
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.DOANV1.props
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.DOANV1.props
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.RazorTargetAssemblyInfo.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.CopyComplete
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\refint\DOANV1.dll
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.pdb
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.genruntimeconfig.cache
+D:\ANGULAR\full1\DOANV1\DOANV1\obj\Debug\net5.0\ref\DOANV1.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\nlog.config
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\appsettings.Development.json
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\appsettings.json
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.exe
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.deps.json
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.runtimeconfig.json
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.runtimeconfig.dev.json
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DOANV1.pdb
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\AspNetCore.Identity.MongoDbCore.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\AspNetCoreRateLimit.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\AutoMapper.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\DnsClient.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Marvin.Cache.Headers.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\MongoDbGenericRepository.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\NLog.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\SharpCompress.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Snappier.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\ZstdSharp.dll
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+D:\project main\full1\DOANV1\DOANV1\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.AssemblyReference.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.GeneratedMSBuildEditorConfig.editorconfig
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.AssemblyInfoInputs.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.AssemblyInfo.cs
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.CoreCompileInputs.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.MvcApplicationPartsAssemblyInfo.cs
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.MvcApplicationPartsAssemblyInfo.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\scopedcss\bundle\DOANV1.styles.css
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\DOANV1.StaticWebAssets.Manifest.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\DOANV1.StaticWebAssets.Pack.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.DOANV1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.build.DOANV1.props
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.DOANV1.props
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.DOANV1.props
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.RazorTargetAssemblyInfo.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.csproj.CopyComplete
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.dll
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\refint\DOANV1.dll
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.pdb
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\DOANV1.genruntimeconfig.cache
+D:\project main\full1\DOANV1\DOANV1\obj\Debug\net5.0\ref\DOANV1.dll

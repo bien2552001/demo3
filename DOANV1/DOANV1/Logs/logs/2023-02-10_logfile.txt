@@ -1,0 +1,640 @@
+2023-02-10 02:15:32.8415 INFO ========>>>>>>> GET successful
+2023-02-10 02:16:01.1763 INFO ========>>>>>>> GET successful
+2023-02-10 02:16:26.2915 INFO ========>>>>>>> GET successful
+2023-02-10 02:16:49.4690 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 02:18:42.4961 INFO ========>>>>>>> GET successful
+2023-02-10 02:18:48.3256 INFO ========>>>>>>> GET successful
+2023-02-10 02:19:08.8059 INFO ========>>>>>>> GET successful
+2023-02-10 02:19:25.5527 INFO ========>>>>>>> GET successful
+2023-02-10 02:19:39.9945 INFO ========>>>>>>> GET successful
+2023-02-10 02:19:53.3259 INFO ========>>>>>>> GET successful
+2023-02-10 02:19:59.5628 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:03.9066 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:12.3244 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:18.0102 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:23.5317 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:41.2077 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:48.7251 INFO ========>>>>>>> GET successful
+2023-02-10 02:20:54.2524 INFO ========>>>>>>> GET successful
+2023-02-10 02:21:04.0308 INFO ========>>>>>>> GET successful
+2023-02-10 02:21:11.2706 INFO ========>>>>>>> GET successful
+2023-02-10 02:21:23.0962 INFO ========>>>>>>> GET successful
+2023-02-10 02:21:32.2983 INFO ========>>>>>>> GET successful
+2023-02-10 02:21:38.9933 INFO ========>>>>>>> GET successful
+2023-02-10 02:21:47.6099 INFO ========>>>>>>> GET successful
+2023-02-10 02:26:31.6373 INFO  ======>>>>>>>  Item with id: 9b62f6e3-c590-4e87-b00a-e27eb8bf4c17 doesn't exist in the database.
+2023-02-10 02:35:32.2246 INFO ========>>>>>>> GET successful
+2023-02-10 02:35:52.9940 INFO ========>>>>>>> GET successful
+2023-02-10 02:35:56.7257 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:00.3027 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:05.7230 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:09.3601 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:12.7824 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:19.6621 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:34.8556 INFO ========>>>>>>> GET successful
+2023-02-10 02:36:57.2759 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 02:42:03.9503 INFO ========>>>>>>> GET successful
+2023-02-10 02:42:21.7521 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 02:43:51.9503 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 10:22:14.7850 INFO ========>>>>>>> GET successful
+2023-02-10 10:24:03.5207 INFO ========>>>>>>> GET successful
+2023-02-10 10:24:16.0303 INFO ========>>>>>>> GET successful
+2023-02-10 10:24:22.1968 INFO ========>>>>>>> GET successful
+2023-02-10 10:27:50.2456 ERROR Something went wrong: MongoDB.Driver.MongoCommandException: Command find failed: command find requires authentication.
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Repository.Data.Data_Repository.GetAllDataAsync(FeaturesDto dataParameter) in D:\DOANV1\DOANV1\Repository\Data\Data_Repository.cs:line 70
+   at DOANV1.Controllers.DataController.GetAllDataAsync(FeaturesDto feature) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:28:27.0687 ERROR Something went wrong: MongoDB.Driver.MongoCommandException: Command find failed: command find requires authentication.
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Repository.Data.Data_Repository.GetAllDataAsync(FeaturesDto dataParameter) in D:\DOANV1\DOANV1\Repository\Data\Data_Repository.cs:line 70
+   at DOANV1.Controllers.DataController.GetAllDataAsync(FeaturesDto feature) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:31:10.5601 ERROR Something went wrong: MongoDB.Driver.MongoCommandException: Command find failed: command find requires authentication.
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ProcessResponse(ConnectionId connectionId, CommandMessage responseMessage)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocolAsync[TResult](IWireProtocol`1 protocol, ICoreSession session, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadOperationExecutor.ExecuteAsync[TResult](IRetryableReadOperation`1 operation, RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Repository.Data.Data_Repository.GetAllDataAsync(FeaturesDto dataParameter) in D:\DOANV1\DOANV1\Repository\Data\Data_Repository.cs:line 70
+   at DOANV1.Controllers.DataController.GetAllDataAsync(FeaturesDto feature) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:35:09.1906 INFO ========>>>>>>> GET successful
+2023-02-10 10:36:29.0195 INFO ========>>>>>>> GET successful
+2023-02-10 10:36:45.6828 INFO ========>>>>>>> GET successful
+2023-02-10 10:37:59.8562 INFO  ======>>>>>>>  Item with id: 9b62f6e3-c590-4e87-b00a-e27eb8bf4c17 doesn't exist in the database.
+2023-02-10 10:38:22.3869 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:38:29.9892 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:41:03.2004 INFO ========>>>>>>> GET successful
+2023-02-10 10:41:09.9789 INFO ========>>>>>>> GET successful
+2023-02-10 10:41:20.9761 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:41:23.5332 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:41:24.9112 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:41:25.0650 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:41:25.2165 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> Test1Dto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.Test1Dto
+   at lambda_method57(Closure , Object , Test1Dto , ResolutionContext )
+   at DOANV1.Controllers.DataController.GetDataAsync(Guid id) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 92
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 10:51:54.0345 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 10:55:39.0750 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 11:02:26.0468 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 11:26:29.8720 INFO ========>>>>>>> POST successful
+2023-02-10 11:26:30.3009 INFO ========>>>>>>> POST successful
+2023-02-10 11:36:30.8433 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: CreateItemAsync
+2023-02-10 11:36:38.4256 INFO ========>>>>>>> POST successful
+2023-02-10 11:36:38.9618 INFO ========>>>>>>> POST successful
+2023-02-10 11:44:22.5125 INFO ========>>>>>>> POST successful
+2023-02-10 11:44:22.8811 INFO ========>>>>>>> POST successful
+2023-02-10 11:49:27.2340 INFO ========>>>>>>> POST successful
+2023-02-10 11:49:27.5419 INFO ========>>>>>>> POST successful
+2023-02-10 11:52:47.0927 INFO ========>>>>>>> POST successful
+2023-02-10 11:52:47.4353 INFO ========>>>>>>> POST successful
+2023-02-10 15:49:49.0472 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 15:51:37.8443 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 15:52:20.0902 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 15:52:22.5036 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 15:52:22.6992 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 15:52:22.8403 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 15:52:28.2377 ERROR Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'Repository.Data.Data_Repository' while attempting to activate 'DOANV1.Controllers.DataController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 18:14:28.0006 INFO ========>>>>>>> GET successful
+2023-02-10 18:14:51.5489 INFO ========>>>>>>> POST successful
+2023-02-10 18:14:51.8034 INFO ========>>>>>>> POST successful
+2023-02-10 18:15:32.7599 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 18:16:14.7629 INFO ========>>>>>>> DELETE_Id  successful
+2023-02-10 18:16:28.4755 ERROR ========>>>>>>> PUT_Id failure
+2023-02-10 18:16:28.4755 INFO ========>>>>>>> DELETE_Id  successful
+2023-02-10 18:18:17.1514 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: UpdateItemAsync
+2023-02-10 18:18:27.7075 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Data, action: UpdateItemAsync
+2023-02-10 18:18:38.4882 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 18:25:53.8504 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:26:29.3239 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:29:07.2382 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:29:07.8490 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:29:08.0244 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:29:08.1792 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:30:47.6442 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:02.9418 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:04.7635 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:04.8999 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:05.0501 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:05.1952 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:05.3442 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:05.5125 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:05.6933 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:05.9946 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:06.1182 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:06.2702 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:06.4163 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:06.5816 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:06.7534 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:06.9326 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:07.1021 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:07.2502 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:07.4081 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:44.5796 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:46.7526 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:32:46.9674 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:33:01.7567 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:33:04.1371 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:33:04.2985 ERROR ========>>>>>>> _____PATH___Item ___: Not Invalid model state for the patch document
+2023-02-10 18:38:24.4662 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:38:33.1918 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:38:35.4399 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:38:36.1035 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:38:36.4034 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:44:59.6110 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:45:42.5316 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:45:44.4231 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:45:44.7569 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:45:44.8774 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:45:45.0066 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:11.3861 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:13.9799 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:14.1155 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:14.2468 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:35.9832 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:37.0455 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:37.3744 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:37.4505 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:37.6492 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:46:37.7995 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:51:05.7546 ERROR Something went wrong: Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: Invalid JsonPatch operation 'string'.
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at DOANV1.Controllers.DataController.PatchItemAsync(Guid id, JsonPatchDocument`1 patchDoc) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 214
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 18:51:22.7898 ERROR Something went wrong: Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: The target location specified by path segment 'aaa' was not found.
+   at Microsoft.AspNetCore.JsonPatch.Internal.ErrorReporter.<>c.<.cctor>b__1_0(JsonPatchError error)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Add(String path, Object value, Object objectToApplyTo, Operation operation)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Add(Operation operation, Object objectToApplyTo)
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at DOANV1.Controllers.DataController.PatchItemAsync(Guid id, JsonPatchDocument`1 patchDoc) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 214
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 18:51:52.0207 ERROR Something went wrong: Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: The target location specified by path segment 'aaa' was not found.
+   at Microsoft.AspNetCore.JsonPatch.Internal.ErrorReporter.<>c.<.cctor>b__1_0(JsonPatchError error)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Add(String path, Object value, Object objectToApplyTo, Operation operation)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Add(Operation operation, Object objectToApplyTo)
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at DOANV1.Controllers.DataController.PatchItemAsync(Guid id, JsonPatchDocument`1 patchDoc) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 214
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 18:52:20.3291 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:52:53.0150 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 18:53:00.3041 ERROR Something went wrong: Microsoft.AspNetCore.JsonPatch.Exceptions.JsonPatchException: The target location specified by path segment 'name123' was not found.
+   at Microsoft.AspNetCore.JsonPatch.Internal.ErrorReporter.<>c.<.cctor>b__1_0(JsonPatchError error)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Add(String path, Object value, Object objectToApplyTo, Operation operation)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Add(Operation operation, Object objectToApplyTo)
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo)
+   at DOANV1.Controllers.DataController.PatchItemAsync(Guid id, JsonPatchDocument`1 patchDoc) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 214
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 18:59:38.1291 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:01:07.4769 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:01:17.1305 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:01:29.5541 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:01:36.2137 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:01:57.8336 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:02:08.1602 ERROR ========>>>>>>> _____PATH___Item ___: Invalid model state for the patch document
+2023-02-10 19:04:05.9195 INFO ========>>>>>>> GET successful
+2023-02-10 19:04:31.6132 INFO ========>>>>>>> GET successful
+2023-02-10 19:04:55.9144 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:02.8001 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:10.2586 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:14.8004 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:19.8702 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:24.7498 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:52.9880 INFO ========>>>>>>> GET successful
+2023-02-10 19:05:58.2686 INFO ========>>>>>>> GET successful
+2023-02-10 19:06:02.9037 INFO ========>>>>>>> GET successful
+2023-02-10 19:06:36.2435 INFO ========>>>>>>> GET successful
+2023-02-10 19:06:48.6298 INFO ========>>>>>>> GET successful
+2023-02-10 19:07:04.3395 INFO ========>>>>>>> GET successful
+2023-02-10 19:07:09.4907 INFO ========>>>>>>> GET successful
+2023-02-10 19:08:58.3711 INFO ========>>>>>>> GET successful
+2023-02-10 19:09:02.7447 INFO ========>>>>>>> GET successful
+2023-02-10 19:09:08.8327 INFO ========>>>>>>> GET successful
+2023-02-10 21:59:04.3148 ERROR Something went wrong: System.TimeoutException: A timeout occurred after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 }, OperationsCountServerSelector }. Client view of cluster state is { ClusterId : "1", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. [::1]:27017
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.Connect(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStream(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnection(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.Heartbeat(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2023-02-10T14:59:01.2084937Z", LastUpdateTimestamp: "2023-02-10T14:59:01.2084942Z" }] }.
+   at MongoDB.Driver.Core.Clusters.Cluster.ThrowTimeoutException(IServerSelector selector, ClusterDescription description)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedHelper.HandleCompletedTask(Task completedTask)
+   at MongoDB.Driver.Core.Clusters.Cluster.WaitForDescriptionChangedAsync(IServerSelector selector, ClusterDescription description, Task descriptionChangedTask, TimeSpan timeout, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Clusters.Cluster.SelectServerAsync(IServerSelector selector, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoClient.AreSessionsSupportedAfterServerSelectionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoClient.AreSessionsSupportedAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoClient.StartImplicitSessionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToListAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Repository.Data.Data_Repository.GetAllDataAsync(FeaturesDto dataParameter) in D:\DOANV1\DOANV1\Repository\Data\Data_Repository.cs:line 60
+   at DOANV1.Controllers.DataController.GetAllDataAsync(FeaturesDto feature) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 66
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 22:05:43.5284 INFO ========>>>>>>> GET successful
+2023-02-10 22:05:58.2062 INFO ========>>>>>>> GET successful
+2023-02-10 22:06:11.9893 INFO ========>>>>>>> GET successful
+2023-02-10 22:06:17.9854 INFO ========>>>>>>> GET successful
+2023-02-10 22:06:22.7323 INFO ========>>>>>>> GET successful
+2023-02-10 22:06:26.4530 INFO ========>>>>>>> GET successful
+2023-02-10 22:06:30.6004 INFO ========>>>>>>> GET successful
+2023-02-10 22:06:39.7904 INFO ========>>>>>>> GET successful
+2023-02-10 22:07:01.8245 INFO ========>>>>>>> GET successful
+2023-02-10 22:07:06.9969 INFO ========>>>>>>> GET successful
+2023-02-10 22:07:17.8272 INFO ========>>>>>>> GET successful
+2023-02-10 22:07:46.1557 INFO ========>>>>>>> GET successful
+2023-02-10 22:08:01.5741 INFO ========>>>>>>> GET successful
+2023-02-10 22:08:12.6951 INFO ========>>>>>>> GET successful
+2023-02-10 22:09:38.8247 INFO ========>>>>>>> POST successful
+2023-02-10 22:09:38.9771 INFO ========>>>>>>> POST successful
+2023-02-10 22:09:54.3858 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: CreateItemAsync
+2023-02-10 22:10:05.2227 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Data, action: CreateItemAsync
+2023-02-10 22:10:13.1721 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: CreateItemAsync
+2023-02-10 22:14:58.8336 INFO  ======>>>>>>>  Item with id: e02d8cb7-d3a0-4c40-9086-41a998d3f615 doesn't exist in the database.
+2023-02-10 22:15:20.7727 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 22:17:16.5256 INFO ========>>>>>>> GET successful
+2023-02-10 22:17:42.1423 INFO ========>>>>>>> GET successful
+2023-02-10 22:18:27.5631 INFO ========>>>>>>> GET successful
+2023-02-10 22:18:33.6588 INFO ========>>>>>>> GET successful
+2023-02-10 22:18:42.3057 INFO ========>>>>>>> GET successful
+2023-02-10 22:18:59.0732 INFO ========>>>>>>> GET successful
+2023-02-10 22:23:22.7900 INFO ========>>>>>>> GET successful
+2023-02-10 22:29:13.1078 INFO ========>>>>>>> GET successful
+2023-02-10 22:29:31.0228 INFO ========>>>>>>> GET successful
+2023-02-10 22:29:43.9788 INFO ========>>>>>>> GET successful
+2023-02-10 22:29:51.0437 INFO ========>>>>>>> GET successful
+2023-02-10 22:30:32.1256 INFO ========>>>>>>> GET successful
+2023-02-10 22:32:02.3090 INFO  ======>>>>>>>  Item with id: 4e016ae3-35f7-4991-8513-4c366d39d4da doesn't exist in the database.
+2023-02-10 22:32:22.8405 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 22:35:02.2175 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 22:35:11.1502 INFO  ======>>>>>>>  Item with id: 9f112f47-0967-47fe-910d-9dd205f47db8 doesn't exist in the database.
+2023-02-10 22:35:15.9550 INFO  ======>>>>>>>  Item with id: 00000000-0000-0000-0000-000000000000 doesn't exist in the database.
+2023-02-10 22:35:24.3817 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 22:35:36.8753 INFO ========>>>>>>> POST successful
+2023-02-10 22:36:41.3873 INFO ========>>>>>>> POST successful
+2023-02-10 22:39:56.1481 INFO ========>>>>>>> DELETE_Id  successful
+2023-02-10 22:40:03.8593 INFO ========>>>>>>> GET successful
+2023-02-10 22:40:28.2967 ERROR ========>>>>>>> PUT_Id failure
+2023-02-10 22:40:28.2967 INFO ========>>>>>>> DELETE_Id  successful
+2023-02-10 22:42:19.2486 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Data, action: DeleteItemAsync
+2023-02-10 22:42:51.2777 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Data, action: DeleteItemAsync
+2023-02-10 22:43:07.4066 ERROR  ============>>>>>>>>   Object sent from client is null. Controller: Data, action: DeleteItemAsync
+2023-02-10 23:08:59.8928 INFO ========>>>>>>> GET successful
+2023-02-10 23:09:07.5473 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:10:05.6537 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:10:11.5871 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:10:55.5726 INFO ========>>>>>>> DELETE_Id  successful
+2023-02-10 23:16:32.6707 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:16:49.4166 ERROR  ============>>>>>>>>  Invalid model state for the object. Controller:Data, action: CreateItemAsync
+2023-02-10 23:17:17.8090 INFO ========>>>>>>> POST successful
+2023-02-10 23:22:04.9570 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:22:42.2527 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:30:19.5599 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:30:26.4774 INFO ========>>>>>>> GET successful
+2023-02-10 23:31:00.6573 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:31:11.9259 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:31:13.0826 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:39:17.0663 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Data_Model -> PutDataDto
+DOANV1.Entities.Model.Data_Model -> DOANV1.Entities.Extensions_Entities.DTO.DataDto1.PutDataDto
+   at lambda_method19(Closure , Data_Model , PutDataDto , ResolutionContext )
+   at DOANV1.Controllers.DataController.UpdateItemAsync(Guid id, PutDataDto itemDto) in D:\DOANV1\DOANV1\Controllers\DataController.cs:line 150
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-02-10 23:40:44.4191 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:40:53.7341 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:40:57.9542 INFO ========>>>>>>> GET successful
+2023-02-10 23:42:52.7947 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:42:57.0947 INFO ========>>>>>>> GET_Id  successful
+2023-02-10 23:43:00.8064 INFO ========>>>>>>> GET successful
+2023-02-10 23:53:33.3267 INFO ========>>>>>>> PUT_Id  successful
+2023-02-10 23:56:02.5949 INFO ========>>>>>>> PATCH_Id  successful
+2023-02-10 23:56:09.2155 INFO ========>>>>>>> GET_Id  successful
